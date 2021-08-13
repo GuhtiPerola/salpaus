@@ -1,33 +1,63 @@
-<HTML>
+<html>
+  <head>
+    <title>
+      Javascriptiä
+    </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      tieto- ja viestintätekniikka
+    </header>
+    <div class="lomake-alue">
+      <form id="opiskelija-lokmake">
+        <h1>lisää merkintä</h1>
+        <div class="virheilmoitus"></div>
+        <div>
+          <label>Nimi: </label>
+          <input type="text" id="nimi">
+        </div>
+        <div>
+          <label>Tieto: </label>
+          <input type="text" id="tieto">
+        </div>
+        <input type="submit" value="Lisää tieto" class="kurssinappi">
+      </form>
+      <ul id="tiedot"></ul>
+      <h2>Suoritettavat</h2>
+      <ul class="Kurssi">
+      <li class="sisalto"><input type="checkbox" id="tehta">HTML</li>
+      <li class="sisalto"><input type="checkbox" id="tehtb">CSS</li>
+      <li class="sisalto"><input type="checkbox" id="tehtc">JavaScript</li>
+      </ul>
+      <input type="submit" value="Merkkaa" class="merkinta">
+    </div>
+    <script src="script.js"></script>
+ 
+ <form action="action_page.php" method="post">
+  <div class="imgcontainer">
+   
+  </div>
 
-	
-	<HEAD>
-		<TITLE>
-			GuhtoBlogo
-		</TITLE>
-	</HEAD>
+  <div class="container">
+    <label for="Guntti"><b>Käyttäjänimi</b></label>
+    <input type="text" placeholder="Lisää Käyttäjänimi" name="Guntti" required>
 
-<BODY>
-<h2> Guhto Blogi </h2>
-<a href="file:///C:/Users/eduahtiper/Downloads/Nettisivu/toinen.html"<Kirjan teko p&auml;tk&auml;!</a>
-Kirjan teko p&auml;tk&auml;!</a> 
+    
+    <label for="Guhti"><b>Salasana</b></label>
+    <input type="Salasana" placeholder="Lisää Salasana" name="Guhti" required>
 
-<P>
-Isyyspakkaus on pitk&auml;n linjan is&auml;blogi, joka n&auml;ytt&auml;isi olevan nyky&auml;&auml;n jopa Lifestyle-henkinen kokonaisuus. Aiheita on todella laajasti laidasta laitaan, ja blogi n&auml;ytt&auml;&auml; kaikin puolin hyv&auml;lt&auml; ja mielenkiintoiselta!	
-</P>
-
-<p>
-<h3> V&auml;liotsikko </h3>
-JugiMoro :p	
-<a href="https://www.adlibris.com/fi/kirja/guhti-i-valldam-guovsagisav-9788282631945"<Guhtin oma kirja</a>
-Guhtin oma kirja</a> 
-
-Guhtin kirjan arvosteluja: Todella priimane vihko!, 5/5 Priimaa luettavaa:D!, Todella selv&auml;&auml; teksti&auml; lapulla:D suosittelen!, JugiMoro :D hyv&auml; kirja :P
-</p>
-<img src="ED/jukka.png">
+    <button type="submit">Login</button>
+  
+    <label>
+      
+      <input type="checkbox" checked="checked" name="Muista"> Muista minut
+    </label>
+  </div>
 
 
-
-</BODY>
-
-</HTML>
+ 
+  </div>
+</form>
+ </body>
+</html>
